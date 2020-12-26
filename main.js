@@ -36,9 +36,9 @@ client.on('message', message =>{
     const command = args.shift().toLowerCase();
 
     // use the advanced command handler!
-    if (command == 'on'){
+    if (command === 'on'){
         client.commands.get('on').execute(message, args);
-    } else if (command == 'off'){
+    } else if (command === 'off'){
         client.commands.get('off').execute(message, args);
     }
 
