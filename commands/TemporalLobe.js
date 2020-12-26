@@ -11,13 +11,13 @@ module.exports = {
         .setDescription('What is the Temporal Lobe?')
         .addFields(
 
-            {name: 'Brain Region:', value:'Limbic System'},
-            {name: 'Function:', value:'Emotions'},
-            {name: 'Motto', value:'Fight or Flight'}
+            {name: 'Brain Region:', value:'Beneath the lateral fissure on both cerebral hemispheres of the mammalian brain.'},
+            {name: 'Function:', value:'Processing sensory input into derived meanings for the appropriate retention of visual memory, language comprehension, and emotion association.'},
+            {name: 'Motto:', value:'Hearing Headquarters!'}
 
         )
-        .setImage('https://upload.wikimedia.org/wikipedia/commons/2/2f/MRI_Location_Amygdala_up.png')
-        .setFooter('The Brain Encyclopedia retrieved the Temporal Lobe');
+        .setImage('https://upload.wikimedia.org/wikipedia/commons/1/1c/Temporal_lobe_animation.gif')
+        .setFooter('The Brain Encyclopedia retrieved the Temporal Lobe.');
         
         message.channel.send(newTemporalLobe);
     }  
