@@ -20,6 +20,5 @@ module.exports = {
         .setFooter('The Brain Encyclopedia retrieved the Amygdala');
         
         message.channel.send(newAmygdala);
-    }
-    
+    }  
 }
