@@ -1,7 +1,7 @@
 const { execute } = require("./on");
 
 module.exports = {
-    name: 'TemporalLobe',
+    name: 'temporal_lobe',
     description: 'info on the amygdala',
     execute(message, args, Discord){
         const newTemporalLobe = new Discord.MessageEmbed()

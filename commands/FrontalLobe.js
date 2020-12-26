@@ -1,10 +1,10 @@
 const { execute } = require("./on");
 
 module.exports = {
-    name: 'FrontalLobe',
+    name: 'frontal_lobe',
     description: 'info on the amygdala',
     execute(message, args, Discord){
-        const newAFrontalLobe = new Discord.MessageEmbed()
+        const newFrontalLobe = new Discord.MessageEmbed()
         .setColor('#FC773E')
         .setTitle('Frontal Lobe')
         .setURL()
