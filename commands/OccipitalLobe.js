@@ -11,13 +11,13 @@ module.exports = {
         .setDescription('What is the Occipital Lobe?')
         .addFields(
 
-            {name: 'Brain Region:', value:'Limbic System'},
-            {name: 'Function:', value:'Emotions'},
-            {name: 'Motto', value:'Fight or Flight'}
+            {name: 'Brain Region:', value:'Posterior Cerebrum'},
+            {name: 'Function:', value:'Visual processing stimuli from the external world, but also to assign meaning to and remember visual perceptions.'},
+            {name: 'Motto:', value:'Everything Eyes'}
 
         )
-        .setImage('https://upload.wikimedia.org/wikipedia/commons/2/2f/MRI_Location_Amygdala_up.png')
-        .setFooter('The Brain Encyclopedia retrieved the Occipital Lobe');
+        .setImage('https://upload.wikimedia.org/wikipedia/commons/8/8f/Occipital_lobe_animation_small.gif')
+        .setFooter('The Brain Encyclopedia retrieved the Occipital Lobe.');
         
         message.channel.send(newOccipitalLobe);
     }  
