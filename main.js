@@ -35,10 +35,11 @@ client.on('message', message =>{
 
     const command = args.shift().toLowerCase();
 
+    // use the advanced command handler!
     if (command == 'on'){
-        message.channel.send('I am on, I swear!');
+        client.commands.get('on').execute(message, args);
     } else if (command == 'off'){
-        message.channel.send('bye, brain is signing off!');
+        client.commands.get('off').execute(message, args);
     }
 
 });
