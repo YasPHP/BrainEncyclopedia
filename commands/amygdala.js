@@ -12,12 +12,12 @@ module.exports = {
         .addFields(
 
             {name: 'Brain Region:', value:'Limbic System'},
-            {name: 'Function:', value:'Emotions'},
-            {name: 'Motto', value:'Fight or Flight'}
+            {name: 'Function:', value:'processing of memory, decision-making and emotional responses (including fear, anxiety, and aggression)'},
+            {name: 'Motto:', value:'Fight or Flight'}
 
         )
         .setImage('https://upload.wikimedia.org/wikipedia/commons/2/2f/MRI_Location_Amygdala_up.png')
-        .setFooter('The Brain Encyclopedia retrieved the Amygdala');
+        .setFooter('The Brain Encyclopedia retrieved the Amygdala.');
         
         message.channel.send(newAmygdala);
     }  
