@@ -1,50 +1,91 @@
-const DISCORD = require('discord.js');
+const Discord = require('discord.js');
 
-const CLIENT = new DISCORD.CLIENT();
+const client = new Discord.Client();
 
 // what user needs to type to use discord bot commands
-const PREFIX = '-';
+const prefix = '-';
 
 const fs = require('fs');
 
 // advanced command handler collection
-CLIENT.commands = new DISCORD.Collection();
+client.commands = new Discord.Collection();
 
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
 
 for (const file of commandFiles){
     const command = require(`./commands/${file}`);
 
-    CLIENT.commands.set(command.name, command);
+    client.commands.set(command.name, command);
 }
 
 
 
 // bot is online!
 
-CLIENT.once('ready', () => {
+client.once('ready', () => {
     console.log('BrainEncyclopedia is here!');
 });
 
 
-CLIENT.on('message', message =>{
+client.on('message', message =>{
 
-    if (!message.content.startsWith(PREFIX) || message.author.bot) return;
+    if (!message.content.startsWith(prefix) || message.author.bot) return;
 
-    const args = message.content.slice(PREFIX.length).split(/ +/);
+    const args = message.content.slice(prefix.length).split(/ +/);
 
     const command = args.shift().toLowerCase();
 
     // use the advanced command handler!
+
+    // ON
     if (command === 'on'){
-        CLIENT.commands.get('on').execute(message, args);
+        client.commands.get('on').execute(message, args);
+
+    // OFF
     } else if (command === 'off'){
-        CLIENT.commands.get('off').execute(message, args);
+        client.commands.get('off').execute(message, args);
+
+    // KHAN ACADEMY NEUROLOGY VIDEOS
+    } else if (command === 'khan_academy'){
+        client.commands.get('khan_academy').execute(message, args);
+    
+    // BRAIN REGIONS
+
+    // Amygdala
+    } else if (command === 'amygdala'){
+        client.commands.get('amygdala').execute(message, args, Discord);
+    
+    // Cerebellum
+    } else if (command === 'cerebellum'){
+        client.commands.get('cerebellum').execute(message, args, Discord);
+
+     // Brain Stem
+    } else if (command === 'brainstem'){
+        client.commands.get('brainstem').execute(message, args, Discord);
+ 
+
+    // LOBES (FPOT)
+    } else if (command === 'frontal_lobe'){
+        client.commands.get('frontal_lobe').execute(message, args, Discord);
+
+    // Parietal Lobe
+    } else if (command === 'parietal_lobe'){
+        client.commands.get('parietal_lobe').execute(message, args, Discord);
+
+    // Occipital Lobe
+    } else if (command === 'occipital_lobe'){
+        client.commands.get('occipital_lobe').execute(message, args, Discord);
+
+    // Temporal Lobe
+    } else if (command === 'temporal_lobe'){
+        client.commands.get('temporal_lobe').execute(message, args, Discord);
     }
+
+    
 
 });
 
 
 
 // the bot is logged in with its token (SECRET COMBO #COME BACK & ADD TO GITIGNORE MAYBE: https://www.reddit.com/r/learnpython/comments/7pzlm0/discord_bot_token_on_github/ !)
-CLIENT.login('TOKEN');
+client.login('TOKEN');
