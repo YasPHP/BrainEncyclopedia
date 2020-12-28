@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
@@ -17,8 +19,6 @@ for (const file of commandFiles){
 
     client.commands.set(command.name, command);
 }
-
-
 
 // bot is online!
 
@@ -82,10 +82,8 @@ client.on('message', message =>{
     }
 
     
-
 });
 
 
-
 // the bot is logged in with its token (SECRET COMBO #COME BACK & ADD TO GITIGNORE MAYBE: https://www.reddit.com/r/learnpython/comments/7pzlm0/discord_bot_token_on_github/ !)
-client.login('TOKEN');
+client.login(process.env.BOT_TOKEN);
