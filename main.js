@@ -80,8 +80,7 @@ client.on('message', message =>{
     } else if (command === 'temporal_lobe'){
         client.commands.get('temporal_lobe').execute(message, args, Discord);
     }
-
-    
+  
 });
 
 // the bot is logged in with its token (SECRET COMBO #COME BACK & ADD TO GITIGNORE MAYBE: https://www.reddit.com/r/learnpython/comments/7pzlm0/discord_bot_token_on_github/ !)
