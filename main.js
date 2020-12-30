@@ -1,8 +1,14 @@
 require('dotenv').config();
 
+// a node.js module that allows you to interact with the Discord API 
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
+
+// image packages (for random image generator)
+const cheerio = require('cheerio');
+
+const request = require('request');
 
 // what user needs to type to use discord bot commands
 const prefix = '-';
@@ -81,7 +87,35 @@ client.on('message', message =>{
         client.commands.get('temporal_lobe').execute(message, args, Discord);
     }
   
+    // random image generator
+    Let args = message.content.substring(prefix.length).split(" ");
+
+    switch (args[0]) {
+        case 'image':
+        Image(message);
+
+        break;
+    }
 });
+
+// searches "brain images" on the DogPile search engine
+function image(message){
+
+    var options = {
+
+        url: "http://results.dogpile.com/serp?qc=images&q=" + "brain image",
+        method: "GET",
+        headers: {
+            "Accept": "text/html",
+            "User-Agent": "Chrome"
+        }
+    }
+};
+
+
+
+
+
 
 // the bot is logged in with its token (SECRET COMBO #COME BACK & ADD TO GITIGNORE MAYBE: https://www.reddit.com/r/learnpython/comments/7pzlm0/discord_bot_token_on_github/ !)
 client.login(process.env.BOT_TOKEN);
