@@ -86,35 +86,64 @@ client.on('message', message =>{
     } else if (command === 'temporal_lobe'){
         client.commands.get('temporal_lobe').execute(message, args, Discord);
     }
-  
+
+});
+
+
+bot.on('message', message => {
+    
     // random image generator
-    Let args = message.content.substring(prefix.length).split(" ");
+    let args = message.content.substring(prefix.length).split(" ");
 
     switch (args[0]) {
         case 'image':
-        Image(message);
+        image(message);
 
         break;
     }
+
 });
+
 
 // searches "brain images" on the DogPile search engine
 function image(message){
 
     var options = {
-
         url: "http://results.dogpile.com/serp?qc=images&q=" + "brain image",
         method: "GET",
         headers: {
             "Accept": "text/html",
             "User-Agent": "Chrome"
         }
+    };
+
+
+request(options, function(error, response, responseBody){
+    
+    // error checking, terminates search request
+    if(error){
+        return;
     }
-};
 
+    $ = cheerio.load(responseBody);
 
+    var links = $(".image a.link");
 
+    var urls = new Array(links.length).fill(0).map((v, i) => links.eq(i).attr("href"));
 
+    // logs each randomly searched url for brain image
+    console.log(urls);
+
+    // error checking, terminates search request if invalid url
+    if (!urls.length){
+        return;
+    }
+
+    message.channel.send( urls[Math.floor(Math.random()* urls.length)] + " " + message.guild.members.random());
+
+});
+
+}
 
 
 // the bot is logged in with its token (SECRET COMBO #COME BACK & ADD TO GITIGNORE MAYBE: https://www.reddit.com/r/learnpython/comments/7pzlm0/discord_bot_token_on_github/ !)
