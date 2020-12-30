@@ -9,7 +9,9 @@
   "author": "yasmeen",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
     "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2"
   }
 }
