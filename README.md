@@ -8,5 +8,6 @@ A discord bot that acts as an encyclopedia about brain anatomy.
 
 # Current Features
 - brain region look up
-
+- image search
+- neuroscience library retrieval
 
