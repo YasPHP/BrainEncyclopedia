@@ -81,15 +81,36 @@ client.on('message', message =>{
     } else if (command === 'temporal_lobe'){
         client.commands.get('temporal_lobe').execute(message, args, Discord);
 
-    // Crowdscience Research
+    // CROWDSCIENCE RESEARCH (CR) SOURCES
+
+    // CR Source Dashboard
     } else if (command === 'crowdscience_research'){
         client.commands.get('crowdscience_research').execute(message, args, Discord);
 
     // Stall Catchers
     } else if (command === 'stall_catchers'){
         client.commands.get('stall_catchers').execute(message, args);
-    }
 
+    // Neo
+    } else if (command === 'neo'){
+        client.commands.get('neo').execute(message, args);
+
+    // Eyewire
+    } else if (command === 'eyewire'){
+        client.commands.get('eyewire').execute(message, args);
+    
+    // Mozak
+    } else if (command === 'mozak'){
+        client.commands.get('mozak').execute(message, args);
+
+    // Fold It
+    } else if (command === 'fold_it'){
+        client.commands.get('fold_it').execute(message, args);
+
+     // Neuron Museum
+    } else if (command === 'neuron_museum'){
+        client.commands.get('neuron_museum').execute(message, args);
+    }
 
 });
 
