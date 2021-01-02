@@ -6,6 +6,12 @@ A discord bot that acts as an encyclopedia about brain anatomy.
 
 ![alt text](https://github.com/YasPHP/BrainEncyclopedia/blob/main/encyclopedia_brain_logo.png?raw=true)
 
+# Current Features
+- brain region look up
+- image search
+- neuroscience library retrieval
+- crowd science neuro research
+
 # Sources
 
 ## Brain Regions
@@ -19,8 +25,4 @@ A discord bot that acts as an encyclopedia about brain anatomy.
 - Eyewire: https://eyewire.org/explore
 - Stall Catchers: https://stallcatchers.com/main 
 
-# Current Features
-- brain region look up
-- image search
-- neuroscience library retrieval
 
