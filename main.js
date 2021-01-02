@@ -80,7 +80,16 @@ client.on('message', message =>{
     // Temporal Lobe
     } else if (command === 'temporal_lobe'){
         client.commands.get('temporal_lobe').execute(message, args, Discord);
+
+    // Crowdscience Research
+    } else if (command === 'crowdscience_research'){
+        client.commands.get('crowdscience_research').execute(message, args, Discord);
+
+    // Stall Catchers
+    } else if (command === 'stall_catchers'){
+        client.commands.get('stall_catchers').execute(message, args);
     }
+
 
 });
 
