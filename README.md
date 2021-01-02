@@ -1,7 +1,8 @@
 # BrainEncyclopedia
 A discord bot that acts as an encyclopedia about brain anatomy.
 
-“There is no scientific study more vital to man than the study of his own brain. Our entire view of the universe depends on it.” - Francis Crick
+# “There is no scientific study more vital to man than the study of his own brain. Our entire view of the universe depends on it.”
+## - Francis Crick
 
 ![alt text](https://github.com/YasPHP/BrainEncyclopedia/blob/main/encyclopedia_brain_logo.png?raw=true)
 
