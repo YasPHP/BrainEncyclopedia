@@ -26,3 +26,4 @@ A discord bot that acts as an encyclopedia about brain anatomy.
 - Stall Catchers: https://stallcatchers.com/main 
 
 (Do brain research with me here: https://youtu.be/5OAgCg4Axak)
+
