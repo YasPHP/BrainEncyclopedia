@@ -1,5 +1,5 @@
 # BrainEncyclopedia
-A discord bot that acts as an encyclopedia about brain anatomy.
+A discord bot that acts as an encyclopedia about brain anatomy. Provides brain region lookup, image search, crowd science neuro research, and retrieves neuroscience libraries.
 
 # “There is no scientific study more vital to man than the study of his own brain. Our entire view of the universe depends on it.”
 ## - Francis Crick
