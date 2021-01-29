@@ -24,6 +24,7 @@ A discord bot that acts as an encyclopedia about brain anatomy. Provides brain r
 - Neuron Museum: http://museum.eyewire.org/?neurons=26065,20117,26051,17212
 - Eyewire: https://eyewire.org/explore
 - Stall Catchers: https://stallcatchers.com/main 
+- [Sea Hero Quest](https://sea-hero-quest.fileplanet.com/apk)
 
 (Do brain research with me here: https://youtu.be/5OAgCg4Axak)
 
