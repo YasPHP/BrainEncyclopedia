@@ -15,7 +15,7 @@ A discord bot that acts as an encyclopedia about brain anatomy. Provides brain r
 # Sources
 
 ## Brain Regions
-- (Wikipedia's list of regions in the human brain): https://en.wikipedia.org/wiki/List_of_regions_in_the_human_brain
+- Wikipedia's [list](https://en.wikipedia.org/wiki/List_of_regions_in_the_human_brain) of regions in the human brain
 
 ## Crowd Science Neuro Research Sources
 - [Mozak](https://www.mozak.science/landing)
@@ -26,5 +26,5 @@ A discord bot that acts as an encyclopedia about brain anatomy. Provides brain r
 - [Stall Catchers](https://stallcatchers.com/main)
 - [Sea Hero Quest](https://sea-hero-quest.fileplanet.com/apk)
 
-(Do brain research with me here: https://youtu.be/5OAgCg4Axak)
+(Do brain research with me [here](https://youtu.be/5OAgCg4Axak))
 
