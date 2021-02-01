@@ -1,9 +1,8 @@
 # BrainEncyclopedia
-<img img align="center left" src="https://reignicommunity.weebly.com/uploads/4/0/2/7/40273163/reignidiscordlogo-1-orig_orig.png" width="200"> 
- X ![online bot](https://cdn.discordapp.com/attachments/805865703310753822/805868189673848902/Screen_Shot_2021-02-01_at_1.31.28_PM.png)
+<img img align="center left" src="https://reignicommunity.weebly.com/uploads/4/0/2/7/40273163/reignidiscordlogo-1-orig_orig.png" width="100"> 
+![online bot](https://cdn.discordapp.com/attachments/805865703310753822/805868189673848902/Screen_Shot_2021-02-01_at_1.31.28_PM.png)
 
 
-![discord](https://reignicommunity.weebly.com/uploads/4/0/2/7/40273163/reignidiscordlogo-1-orig_orig.png)
 
 A discord bot that acts as an encyclopedia about brain anatomy. Provides brain region lookup, image search, crowd science neuro research, and retrieves neuroscience libraries.
 
