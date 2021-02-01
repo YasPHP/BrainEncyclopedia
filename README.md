@@ -7,6 +7,7 @@ A discord bot that acts as an encyclopedia about brain anatomy. Provides brain r
 ## - Francis Crick
 ![header](https://i2.wp.com/software.hollandsweb.com/wp-content/uploads/2019/12/eyes2.gif?fit=1000%2C188&ssl=1)
 ![loading bar](https://pnommensen.com/images/better-discord-themes-1.gif)
+![discord](https://i.redd.it/a8keeuutawx01.gif)
 <img img align="center left" src="https://github.com/YasPHP/BrainEncyclopedia/blob/main/encyclopedia_brain_logo.png?raw=true" width="200"> 
 
 
