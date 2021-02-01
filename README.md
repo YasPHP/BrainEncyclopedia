@@ -1,5 +1,5 @@
 # BrainEncyclopedia
-![online bot](https://cdn.discordapp.com/attachments/805865703310753822/805868189673848902/Screen_Shot_2021-02-01_at_1.31.28_PM.png)
+![online bot](https://cdn.discordapp.com/attachments/805865703310753822/805868189673848902/Screen_Shot_2021-02-01_at_1.31.28_PM.png) X ![discord](https://i.redd.it/a8keeuutawx01.gif)
 
 A discord bot that acts as an encyclopedia about brain anatomy. Provides brain region lookup, image search, crowd science neuro research, and retrieves neuroscience libraries.
 
