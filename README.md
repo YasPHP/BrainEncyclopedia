@@ -6,12 +6,6 @@ A discord bot that acts as an encyclopedia about brain anatomy. Provides brain r
 ## “There is no scientific study more vital to man than the study of his own brain. Our entire view of the universe depends on it.”
 ## - Francis Crick
 
-![loading bar](https://pnommensen.com/images/better-discord-themes-1.gif)
-![discord](https://i.redd.it/a8keeuutawx01.gif)
-<img img align="center left" src="https://github.com/YasPHP/BrainEncyclopedia/blob/main/encyclopedia_brain_logo.png?raw=true" width="200"> 
-
-
-
 # Current Features
 ## Brain Region Look Up
 
