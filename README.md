@@ -10,10 +10,13 @@ A discord bot that acts as an encyclopedia about brain anatomy. Provides brain r
 
 
 # Current Features
-- brain region look up
-- image search
-- neuroscience library retrieval
-- crowd science neuro research
+## Brain Region Look Up
+
+## Neuroanatomy Atlas
+
+## Crowd Science Research
+
+## Neuroscience Library Retrieval
 
 # Sources
 
