@@ -8,7 +8,7 @@ A discord bot that acts as an encyclopedia about brain anatomy. Provides brain r
 
 # Current Features
 ## Brain Region Look Up
-![temporal lobe](https://discord.com/channels/792469912295440434/805865703310753822/810174419346915378)
+[!temporal lobe](https://discord.com/channels/792469912295440434/805865703310753822/810174419346915378)
 ## Neuroanatomy Atlas
 
 ## Crowd Science Research
