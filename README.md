@@ -8,12 +8,17 @@ A discord bot that acts as an encyclopedia about brain anatomy. Provides brain r
 
 # Current Features
 ## Brain Region Look Up
-[!temporal lobe](https://discord.com/channels/792469912295440434/805865703310753822/810174419346915378)
+![temporal lobe](https://cdn.discordapp.com/attachments/805865703310753822/810174419149389834/lobe.png)
+
 ## Neuroanatomy Atlas
+![brainstem lookup](https://cdn.discordapp.com/attachments/805865703310753822/810174422987964436/stem.png)
 
 ## Crowd Science Research
+![research](https://cdn.discordapp.com/attachments/805865703310753822/810174421960622110/research.png)
 
 ## Neuroscience Library Retrieval
+![neuro museum](https://cdn.discordapp.com/attachments/805865703310753822/810174423985946654/museum.png)
+
 
 # Sources
 
